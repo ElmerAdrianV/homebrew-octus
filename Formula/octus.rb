@@ -1,5 +1,5 @@
 class Octus < Formula
-  desc "Octus - Onboarding Buddy B2B CLI"
+  desc "Octus - Onboarding Buddy CLI"
   homepage "https://github.com/ElmerAdrianV/octus-autoinstaller-cli"
   version "0.1.2"
 

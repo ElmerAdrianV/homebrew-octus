@@ -22,6 +22,7 @@ try {
 catch {
     Write-Host "Error al descargar: $_" -ForegroundColor Red
     Write-Host "Asegúrate de que existe una Release publicada en GitHub." -ForegroundColor Yellow
+    Read-Host "Presiona Enter para salir..."
     exit 1
 }
 
@@ -37,3 +38,4 @@ if ($CurrentPath -notlike "*$InstallDir*") {
 }
 
 Write-Host "Instalación exitosa!" -ForegroundColor Green
+Read-Host "Presiona Enter para salir..."
