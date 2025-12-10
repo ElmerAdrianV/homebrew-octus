@@ -1,16 +1,16 @@
 class Octus < Formula
   desc "Octus - Onboarding Buddy B2B CLI"
   homepage "https://github.com/ElmerAdrianV/octus-autoinstaller-cli"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
-    url "https://github.com/ElmerAdrianV/homebrew-octus/releases/download/v0.1.1/octus-macos"
-    sha256 "6b0843e174133847a8d078a214e892b78227599987224736c79a978e0bc96675"
+    url "https://github.com/ElmerAdrianV/homebrew-octus/releases/download/v0.1.2/octus-macos"
+    sha256 "674bd328e2bb6711ce187cf64fe7feefe34c8a0b42d22db02e2143f27a6bda4f"
   end
 
   on_linux do
-    url "https://github.com/ElmerAdrianV/homebrew-octus/releases/download/v0.1.1/octus-linux"
-    sha256 "009c47828892ba5f9e5f9438a23def32bfd6ca15325c50b8e93d97e6460f6356"
+    url "https://github.com/ElmerAdrianV/homebrew-octus/releases/download/v0.1.2/octus-linux"
+    sha256 "60e117814c9c95140ea630ef560b8dedf28201bf0afce6a2aed777da8503452b"
   end
 
   def install
